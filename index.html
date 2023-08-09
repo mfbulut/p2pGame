@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div class="container">
+        <div class="container">
+            <div class="coolinput">
+                <label for="roomID" class="text">Room ID:</label>
+                <input type="text" placeholder="Write here..." name="roomID" class="input" id="roomID">
+            </div>
+            <button id="join" class=btn>Join</button>
+        </div>
+        <p id="userID"></p>
+    </div>
+    <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
